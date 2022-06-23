@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(220, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.cards-pokemon{
+    background-color: rgb(255, 208, 0);
+    border-radius: 20px;
+    box-shadow: -10px 10px 15px -8px rgba(110, 103, 103, 0.603);
+    position: ;
+    height: 550px;
+    width: 350px;
+    
+}
+.cards-topo{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 50px;
+}
+.cards-imagem{
+    display: flex;
+    justify-content: center;
+}
+.cards-imagem img{
+    position: absolute;
+    width: 250px;
+    height: auto;
+    
+}
+.cards-info{
+    background-color: white;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0 0 20px 20px;
+    margin-top: 210px;
+    height: 250px;
+    
+}
+/*SIDE BAR*/
+.menu-sidebar{
+    
+    margin-left: 20px;
+}
+.menu-sidebar ul li img{
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
+    
+}
+.menu-sidebar ul li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    list-style: none;
+    background-color: rgb(110, 103, 103);
+    color: aliceblue;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px 0 0 50px;
+    cursor: pointer;
+
+
+}
+.menu-sidebar ul li:hover{
+    background-color: rgb(165, 42, 93);
+    margin-left: 0px;
+    
+
+}
